@@ -1,0 +1,152 @@
+﻿<!DOCTYPE html>
+<!--
+ Brianna Buttaccio
+ 3/16/2017
+ ISTE-240-01
+ Individual Project 1
+ -->
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>
+        Sweet treat destinations
+    </title>
+    <link rel="stylesheet" type="text/css" href="assets/css/mystyle.css">
+    <script type="text/javascript" src="assets/javascript/mobileNavScript.js"></script>
+</head>
+<body>
+    <!-- GLOBAL NAVIGATION -->
+    <header>
+        <nav id="nav-desktop">
+            <figure id="logo">
+                <a href="index.html"><img src="assets/images/logo.png" alt="Logo" /></a>
+            </figure>
+            <ul>
+                <li>
+                    <div><a href="index.html">Home</a></div>
+                </li>
+                <li class="currentParent">
+                    <div><span>Wine & Dine</span></div>
+                    <ul>
+                        <li><a href="food.html">Food</a></li>
+                        <li class="current"><a href="dessert.html">Dessert</a></li>
+                        <li><a href="drinks.html">Drinks</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <div><a href="lodging.html">Lodging</a></div>
+                </li>
+                <li>
+                    <div><a href="navigation.html">Navigation</a></div>
+                </li>
+                <li>
+                    <div><span>Entertainment</span></div>
+                    <ul>
+                        <li><a href="shopping.html">Shopping</a></li>
+                        <li><a href="siteseeing.html">Sightseeing</a></li>
+                        <li><a href="museums.html">Museums</a></li>
+                        <li><a href="activities.html">Activities</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <div id="nav-trigger">
+            <img src="assets/images/hamburger.png" alt="Logo" />
+        </div>
+        <nav id="nav-mobile">
+            <figure id="logoMobile">
+                <a href="index.html"><img src="assets/images/logo.png" alt="Logo" /></a>
+            </figure>
+        </nav>
+    </header>
+
+    <!-- RIGHT CONTENT -->
+    <div id="right-content">
+
+        <!-- BANNER -->
+        <div id="banner" style="background-image: url('assets/images/dessertBanner.jpg')">
+            <h2>Sweet treat destinations</h2>
+            <h4>https://www.pexels.com/photo/french-macarons-on-brown-wooden-table-47374/</h4>
+        </div>
+
+        <!-- INFORMATION -->
+        <div id="information">
+
+            <div class="float-left one-half" id="text">
+
+                <!-- BOX -->
+                <div class="box intro">
+                    <p>
+                        I hope you have a sweet tooth! Even if don’t, you must try one of the exceptional desserts available in NYC. Because of the cultural diversity, NYC hosts many unique bakeries and dessert shops. After you eat dinner, stop by one of the dessert specialty shops to have your mind blown. You can find puddings, cakes, pies, doughnuts, smoothies, cookies, cupcakes, muffins, ice-cream, frozen yogurt, tartes, candies, crepes, baklava, cannoli, rice pudding, crème brulee, flan, and more. You haven’t truly had these desserts until you’ve tried the ones made by those who have mastered the art. I have had the best flan of my life in NYC in a small Spanish restaurant and I will never eat flan anywhere else again. Here are a few dessert shops to mark on your map. 
+                    </p>
+                </div>
+
+                <!-- BOX -->
+                <a name="anc1"></a>
+                <div class="box">
+                    <h3>1. Buenos Aires</h3>
+                    <p>
+                        Be prepared to never eat flan anywhere else again. Buenos Aires is a great place to have lunch, but make sure you save room for a dessert… or two!
+                    </p>
+                </div>
+
+                <!-- BOX -->
+                <a name="anc2"></a>
+                <div class="box">
+                    <h3>2. Dun-Well Doughnuts</h3>
+                    <p>
+                        Doughnuts are so simple, who knew they could taste so good! Grab breakfast at Dun-Well Doughnuts and enjoy a coffee and the best doughnuts ever. Plus, the doughnuts are vegan!
+                    </p>
+                </div>
+
+                <!-- BOX -->
+                <a name="anc3"></a>
+                <div class="box">
+                    <h3>3. Momofuku Milk Bar</h3>
+                    <p>
+                        Momofuku Milk Bar is truly a unique experience. You must try their cereal milk, it tastes better than milk leftover from a bowl of cereal, and you don’t have to eat the cereal. Their crack pie and compost cookie are also a must have.
+                    </p>
+                </div>
+
+                <!-- BOX -->
+                <a name="anc4"></a>
+                <div class="box">
+                    <h3>4. Ovenly</h3>
+                    <p>
+                        Ovenly is delicious and gluten-free. This is a great dessert shop for those with dietary restriction, and those without. At Ovenly, you don’t have to sacrifice taste. 
+                    </p>
+                </div>
+
+                <!-- BOX -->
+                <a name="anc5"></a>
+                <div class="box">
+                    <h3>5. Marthas Country Bakery</h3>
+                    <p>
+                        Marthas Country Bakery is always packed and a long train ride from the Bronx, but defiantly worth the wait. They are famous for their Tiramisu and Berry Napoleon Pie. They offer an assortment of cakes, pies, and cookies. Takeout is always an option. 
+                    </p>
+                </div>
+            </div>
+            <!-- MAP -->
+            <div class="one-half float-left box last" id="map-section">
+                <div id="map"></div>
+                <script src="assets/javascript/dessertMapScript.js"></script>
+                <script async defer
+                        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAJhb5Prb1SXjVIyYZo9nh6mRaVt6ueSGI&callback=initMap">
+                </script>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>
+            Created by Brianna Buttaccio © 2017
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="sources.html">References</a>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="notes.html">Content Explained</a>
+        </p>
+
+    </footer>
+</body>
+</html>

@@ -1,0 +1,152 @@
+﻿<!DOCTYPE html>
+<!--
+ Brianna Buttaccio
+ 3/16/2017
+ ISTE-240-01
+ Individual Project 1
+ -->
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>
+        Great bars & great drinks
+    </title>
+    <link rel="stylesheet" type="text/css" href="assets/css/mystyle.css">
+    <script type="text/javascript" src="assets/javascript/mobileNavScript.js"></script>
+</head>
+<body>
+    <!-- GLOBAL NAVIGATION -->
+    <header>
+        <nav id="nav-desktop">
+            <figure id="logo">
+                <a href="index.html"><img src="assets/images/logo.png" alt="Logo" /></a>
+            </figure>
+            <ul>
+                <li>
+                    <div><a href="index.html">Home</a></div>
+                </li>
+                <li class="currentParent">
+                    <div><span>Wine & Dine</span></div>
+                    <ul>
+                        <li><a href="food.html">Food</a></li>
+                        <li><a href="dessert.html">Dessert</a></li>
+                        <li class="current"><a href="drinks.html">Drinks</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <div><a href="lodging.html">Lodging</a></div>
+                </li>
+                <li>
+                    <div><a href="navigation.html">Navigation</a></div>
+                </li>
+                <li>
+                    <div><span>Entertainment</span></div>
+                    <ul>
+                        <li><a href="shopping.html">Shopping</a></li>
+                        <li><a href="siteseeing.html">Sightseeing</a></li>
+                        <li><a href="museums.html">Museums</a></li>
+                        <li><a href="activities.html">Activities</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <div id="nav-trigger">
+            <img src="assets/images/hamburger.png" alt="Logo" />
+        </div>
+        <nav id="nav-mobile">
+            <figure id="logoMobile">
+                <a href="index.html"><img src="assets/images/logo.png" alt="Logo" /></a>
+            </figure>
+        </nav>
+    </header>
+
+    <!-- RIGHT CONTENT -->
+    <div id="right-content">
+
+        <!-- BANNER -->
+        <div id="banner" style="background-image: url('assets/images/drinksBanner.jpg')">
+            <h2>Great bars & great drinks</h2>
+            <h4>https://static.pexels.com/photos/162480/glasses-ice-cubes-illuminated-drink-162480.jpeg</h4>
+        </div>
+
+        <!-- INFORMATION -->
+        <div id="information">
+
+            <div class="float-left one-half" id="text">
+
+                <!-- BOX -->
+                <div class="box intro">
+                    <p>
+                        Every bar in NYC is a unique experience, each having its own atmosphere and character. There are lounges, sports bars, night clubs, dive bars, Irish pubs, college bars, cigar bars, and everything in between. If you live outside NYC, expect drink prices to be a bit higher than those at your local bar. There are many nightclubs and lounges in NYC that celebrities like Leonardo DiCaprio, Jay-Z, Justin Beiber, Robin Thicke, Macklemore, Chris Brown, Adam Lampert, Neil Patrick Harris, Lady Gaga, and Justin Timberlake are often seen. These nightclubs and lounges include The Darby, 1 Oak, Acenue, Finale, Boom Boom Room, Goldbar, and Provocateur Café. Many of the bars like these are invitation only, so let’s talk more about bars you’re more likely to party at. 
+                    </p>
+                </div>
+
+                <!-- BOX -->
+                <a name="anc1"></a>
+                <div class="box">
+                    <h3>1. Franklin Park</h3>
+                    <p>
+                        Franklin Park is fun a bar with plenty of things to do. There is indoor and outdoor seating, DJs, open mic, videos games, and trivia. They are also connected to Dutch Boy Burger so you can get food delivered to you in the bar. 
+                    </p>
+                </div>
+
+                <!-- BOX -->
+                <a name="anc2"></a>
+                <div class="box">
+                    <h3>2. Brooklyn Brewery</h3>
+                    <p>
+                        Brooklyn Brewery brews the popular Brooklyn Lager which is served in many bars across NYC.  The brewery also offers tours. Come enjoy a Brooklyn Lager from the source. 
+                    </p>
+                </div>
+
+                <!-- BOX -->
+                <a name="anc3"></a>
+                <div class="box">
+                    <h3>3. Comedy Cellar</h3>
+                    <p>
+                        Comedy Cellar is one of the most entertaining places to grab a drink. It is one of the best standup comedy locations. Tickets are reasonably priced and there is a two-drink minimum. You will see popular comedians like Louis C.K. Dave Chappelle, Chris Rock and Ray Romano. 
+                    </p>
+                </div>
+
+                <!-- BOX -->
+                <a name="anc4"></a>
+                <div class="box">
+                    <h3>4. Output</h3>
+                    <p>
+                        Output is one of the best night clubs in NYC with a high-quality sound system and roof-top dancing. The club hosts internal DJs and live music. The club fills up quick, so get there early.
+                    </p>
+                </div>
+
+                <!-- BOX -->
+                <a name="anc5"></a>
+                <div class="box">
+                    <h3>5. The Cobra Club</h3>
+                    <p>
+                        The Cobra Club is another great bar to have fun. If you didn’t like yoga before, this club offers yoga classes with a free momosa! For entertainment, they also have a karaoke stage. 
+                    </p>
+                </div>
+            </div>
+            <!-- MAP -->
+            <div class="one-half float-left box last" id="map-section">
+                <div id="map"></div>
+                <script src="assets/javascript/drinksMapScript.js"></script>
+                <script async defer
+                        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAJhb5Prb1SXjVIyYZo9nh6mRaVt6ueSGI&callback=initMap">
+                </script>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>
+            Created by Brianna Buttaccio © 2017
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="sources.html">References</a>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="notes.html">Content Explained</a>
+        </p>
+
+    </footer>
+</body>
+</html>

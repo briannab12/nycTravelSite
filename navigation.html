@@ -1,0 +1,113 @@
+﻿<!DOCTYPE html>
+<!--
+ Brianna Buttaccio
+ 3/16/2017
+ ISTE-240-01
+ Individual Project 1
+ -->
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>
+        Navigating the Big Apple
+    </title>
+    <link rel="stylesheet" type="text/css" href="assets/css/mystyle.css">
+    <script type="text/javascript" src="assets/javascript/mobileNavScript.js"></script>
+</head>
+<body>
+    <!-- GLOBAL NAVIGATION -->
+    <header>
+        <nav id="nav-desktop">
+            <figure id="logo">
+                <a href="index.html"><img src="assets/images/logo.png" alt="Logo" /></a>
+            </figure>
+            <ul>
+                <li>
+                    <div><a href="index.html">Home</a></div>
+                </li>
+                <li>
+                    <div><span>Wine & Dine</span></div>
+                    <ul>
+                        <li><a href="food.html">Food</a></li>
+                        <li><a href="dessert.html">Dessert</a></li>
+                        <li><a href="drinks.html">Drinks</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <div><a href="lodging.html">Lodging</a></div>
+                </li>
+                <li class="current">
+                    <div><a href="navigation.html">Navigation</a></div>
+                </li>
+                <li>
+                    <div><span>Entertainment</span></div>
+                    <ul>
+                        <li><a href="shopping.html">Shopping</a></li>
+                        <li><a href="siteseeing.html">Sightseeing</a></li>
+                        <li><a href="museums.html">Museums</a></li>
+                        <li><a href="activities.html">Activities</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <div id="nav-trigger">
+            <img src="assets/images/hamburger.png" alt="Logo" />
+        </div>
+        <nav id="nav-mobile">
+            <figure id="logoMobile">
+                <a href="index.html"><img src="assets/images/logo.png" alt="Logo" /></a>
+            </figure>
+        </nav>
+    </header>
+
+    <!-- RIGHT CONTENT -->
+    <div id="right-content">
+
+        <!-- BANNER -->
+        <div id="banner" style="background-image: url('assets/images/navigationBanner.jpg')">
+            <h2>Navigating the Big Apple</h2>
+            <h4>https://www.pexels.com/photo/cars-traffic-street-new-york-1982/</h4>
+        </div>
+
+        <!-- INFORMATION -->
+        <div id="information">
+
+            <div class="float-left one-half" id="text">
+
+                <!-- BOX -->
+                <div class="box intro">
+                    <p>
+                        When visiting NYC, hands down, you will be relying on public transportation. It would be a miracle if you found street parking in NYC anywhere near your destination, so leave your car wherever you are staying or plan on paying between $15 and $65 to park in a garage. Keep the following tips in mind when navigating.
+                    </p>
+                    <p>
+                        The public transportation system is a safe, convenient, and cheap way to get around the city. Besides a helicopter, it is the quickest form of transportation during rush-hour traffic. It is only $2.75 a ride, with one free train or bus transfer. There are train stations every few blocks; and during the day, the wait time for the next train is only a few minutes. With so many train stations, you typically won’t have to walk more than 10 minutes to get to the nearest one. My biggest tip for navigating public transportation is to read the signs that are located just about everywhere. There are signs on the street, above the sub-way entrances, and sub-way platforms. Also, don’t be afraid to ask people for directions. There are sub-way maps at every platform that show each train’s route. At the train stations where the train routes intersect, you can transfer trains. Look for your destination on the map, and see which train, or trains, gets you from your current location to your destination.
+                    </p>
+                    <p>
+                        Taxis are another way to navigate NYC, but are way more expensive. There is an initial fee of $2.50, plus $2.30 in surcharges depending on the time of travel, plus $.50 per 1/5 mile or $.50 per 60 seconds depending on the speed of traffic, plus tolls, and a tip. That comes to about $25 with tip to travel five miles in clear traffic and without tolls, but count on having a lot of traffic. Taxis do have a few benefits. A taxi may be faster if there is not a lot of traffic or if your public transportation route requires two to four transfers.  Also, they are more convenient because you do not have to walk to a train station. But, you must decide if the steep price is worth not having to walk just a few blocks.  
+                    </p>
+                </div>
+            </div>
+            <!-- MAP -->
+            <div class="one-half float-left box last" id="map-section">
+                <div id="map"></div>
+                <script src="assets/javascript/navigationMapScript.js"></script>
+                <script async defer
+                        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAJhb5Prb1SXjVIyYZo9nh6mRaVt6ueSGI&callback=initMap">
+                </script>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>
+            Created by Brianna Buttaccio © 2017
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="sources.html">References</a>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="notes.html">Content Explained</a>
+        </p>
+
+    </footer>
+</body>
+</html>

@@ -1,0 +1,152 @@
+﻿<!DOCTYPE html>
+<!--
+ Brianna Buttaccio
+ 3/16/2017
+ ISTE-240-01
+ Individual Project 1
+ -->
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>
+        Sweet dreams
+    </title>
+    <link rel="stylesheet" type="text/css" href="assets/css/mystyle.css">
+    <script type="text/javascript" src="assets/javascript/mobileNavScript.js"></script>
+</head>
+<body>
+    <!-- GLOBAL NAVIGATION -->
+    <header>
+        <nav id="nav-desktop">
+            <figure id="logo">
+                <a href="index.html"><img src="assets/images/logo.png" alt="Logo" /></a>
+            </figure>
+            <ul>
+                <li>
+                    <div><a href="index.html">Home</a></div>
+                </li>
+                <li>
+                    <div><span>Wine & Dine</span></div>
+                    <ul>
+                        <li><a href="food.html">Food</a></li>
+                        <li><a href="dessert.html">Dessert</a></li>
+                        <li><a href="drinks.html">Drinks</a></li>
+                    </ul>
+                </li>
+                <li class="current">
+                    <div><a href="lodging.html">Lodging</a></div>
+                </li>
+                <li>
+                    <div><a href="navigation.html">Navigation</a></div>
+                </li>
+                <li>
+                    <div><span>Entertainment</span></div>
+                    <ul>
+                        <li><a href="shopping.html">Shopping</a></li>
+                        <li><a href="siteseeing.html">Sightseeing</a></li>
+                        <li><a href="museums.html">Museums</a></li>
+                        <li><a href="activities.html">Activities</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <div id="nav-trigger">
+            <img src="assets/images/hamburger.png" alt="Logo" />
+        </div>
+        <nav id="nav-mobile">
+            <figure id="logoMobile">
+                <a href="index.html"><img src="assets/images/logo.png" alt="Logo" /></a>
+            </figure>
+        </nav>
+    </header>
+
+    <!-- RIGHT CONTENT -->
+    <div id="right-content">
+
+        <!-- BANNER -->
+        <div id="banner" style="background-image: url('assets/images/lodgingBanner.jpg')">
+            <h2>Sweet dreams</h2>
+            <h4>https://www.pexels.com/photo/white-bedding-cover-beside-brown-wooden-side-table-189293/</h4>
+        </div>
+
+        <!-- INFORMATION -->
+        <div id="information">
+
+            <div class="float-left one-half" id="text">
+
+                <!-- BOX -->
+                <div class="box intro">
+                    <p>
+                        When picking where to stay the night in NYC, cost, safety, and location are all important considerations. Cost varies widely, from $50 for an Airbnb room or motel to thousands of dollars for a luxury suite. Cost usually drops significantly in less neighbors and locations far from Manhattan. When looking for a room for the cheapest price, Airbnb is usually the safer option. Motels selling for $50 a night are most likely not clean or in a dangerous neighborhood. Now let’s consider location. Staying in a cheap location that is far from your destination may not fit into your schedule or be cost effective. It can take more than an hour and half using public transportation to travel across NYC. Also, a taxi may not be faster depending on the traffic and will cost a lot more money. Airbnb is also a great way to stay in a location like Time Square on a low budget. Let’s look at some of the top-rated places to stay the night in NYC that are in safe locations and near some of the top tourist attractions.
+                    </p>
+                </div>
+
+                <!-- BOX -->
+                <a name="anc1"></a>
+                <div class="box">
+                    <h3>1. Airbnb</h3>
+                    <p>
+                        Airbnb is a cheap way to stay in a safe clean location in NYC. For example, a woman is renting a one-occupant room in her apartment. It is $50 a night and includes breakfast and a private room with a bed, couch, TV, internet, wireless internet, and access to the kitchen. Plus, her customers gave her a 4.5/5-star rating. The apartment is close to Union Square, public transportation, and grocery stores. 
+                    </p>
+                </div>
+
+                <!-- BOX -->
+                <a name="anc2"></a>
+                <div class="box">
+                    <h3>2. The NoMad Hotel</h3>
+                    <p>
+                        The NoMad Hotel is a historic hotel with modern décor located in Midtown. In the lobby, you can find a bar with great cocktails on the menu and an eatery serving dishes such as roasted chicken served with black truffle, foie gras and brioche.
+                    </p>
+                </div>
+
+                <!-- BOX -->
+                <a name="anc3"></a>
+                <div class="box">
+                    <h3>3. The New York EDITION</h3>
+                    <p>
+                        The New York EDITION is a modern and cozy hotel across the street from Madison Square Park. The hotel offers in-room spa services and a cozy bar with a fireplace and faux fur blankets. You will never want to leave the hotel.
+                    </p>
+                </div>
+
+                <!-- BOX -->
+                <a name="anc4"></a>
+                <div class="box">
+                    <h3>4. The Ludlow</h3>
+                    <p>
+                        The Ludlow is a hotel in the Lower East Side, surrounded by luxury stores and restaurants. The hotel offers a private terrace and a view of One World Trade. The Ludlow also offers 24-hour room service, a garden, and a French restaurant on site.
+                    </p>
+                </div>
+
+                <!-- BOX -->
+                <a name="anc5"></a>
+                <div class="box">
+                    <h3>5. The Standard East Village</h3>
+                    <p>
+                        The Standard East Village is a great hotel to unwind and put your feet up.  They are known for their relaxed atmosphere. They offer a full bar and an outdoor area with heated yurts.
+                    </p>
+                </div>
+            </div>
+            <!-- MAP -->
+            <div class="one-half float-left box last" id="map-section">
+                <div id="map"></div>
+                <script src="assets/javascript/lodgingMapScript.js"></script>
+                <script async defer
+                        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAJhb5Prb1SXjVIyYZo9nh6mRaVt6ueSGI&callback=initMap">
+                </script>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>
+            Created by Brianna Buttaccio © 2017
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="sources.html">References</a>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="notes.html">Content Explained</a>
+        </p>
+
+    </footer>
+</body>
+</html>

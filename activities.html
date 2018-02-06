@@ -1,0 +1,152 @@
+﻿<!DOCTYPE html>
+<!--
+ Brianna Buttaccio
+ 3/16/2017
+ ISTE-240-01
+ Individual Project 1
+ -->
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>
+        Excitement awaits
+    </title>
+    <link rel="stylesheet" type="text/css" href="assets/css/mystyle.css">
+    <script type="text/javascript" src="assets/javascript/mobileNavScript.js"></script>
+</head>
+<body>
+    <!-- GLOBAL NAVIGATION -->
+    <header>
+        <nav id="nav-desktop">
+            <figure id="logo">
+                <a href="index.html"><img src="assets/images/logo.png" alt="Logo" /></a>
+            </figure>
+            <ul>
+                <li>
+                    <div><a href="index.html">Home</a></div>
+                </li>
+                <li>
+                    <div><span>Wine & Dine</span></div>
+                    <ul>
+                        <li><a href="food.html">Food</a></li>
+                        <li><a href="dessert.html">Dessert</a></li>
+                        <li><a href="drinks.html">Drinks</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <div><a href="lodging.html">Lodging</a></div>
+                </li>
+                <li>
+                    <div><a href="navigation.html">Navigation</a></div>
+                </li>
+                <li class="currentParent">
+                    <div><span>Entertainment</span></div>
+                    <ul>
+                        <li><a href="shopping.html">Shopping</a></li>
+                        <li><a href="siteseeing.html">Sightseeing</a></li>
+                        <li><a href="museums.html">Museums</a></li>
+                        <li class="current"><a href="activities.html">Activities</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <div id="nav-trigger">
+            <img src="assets/images/hamburger.png" alt="Logo" />
+        </div>
+        <nav id="nav-mobile">
+            <figure id="logoMobile">
+                <a href="index.html"><img src="assets/images/logo.png" alt="Logo" /></a>
+            </figure>
+        </nav>
+    </header>
+
+    <!-- RIGHT CONTENT -->
+    <div id="right-content">
+
+        <!-- BANNER -->
+        <div id="banner" style="background-image: url('assets/images/activitiesBanner.jpg')">
+            <h2>Excitement awaits</h2>
+            <h4>https://www.pexels.com/photo/2-women-walking-in-the-carnival-during-daytime-160097</h4>
+        </div>
+
+        <!-- INFORMATION -->
+        <div id="information">
+
+            <div class="float-left one-half" id="text">
+
+                <!-- BOX -->
+                <div class="box intro">
+                    <p>
+                        There is so much to do in NYC that you can’t possibly fit it all into one trip. NYC has the biggest and the best of everything from concerts, to theater productions, comedy shows, professional sports, shopping, eating, drinking, art museums, cultural museums, tours, cruises, zoos, hotels, and architecture. Shopping, eating, sightseeing, clubbing, and museums were already discussed. If these activities aren’t exciting enough for you, here are a few more things to do. 
+                    </p>
+                </div>
+
+                <!-- BOX -->
+                <a name="anc1"></a>
+                <div class="box">
+                    <h3>1. Bronx Zoo</h3>
+                    <p>
+                        The Bronx Zoo it 256 acres of amazing animals from around the world. It is almost impossible to see everything in one day. Some of their popular animals include tigers, gorillas, reptiles, and an indoor rainforest habitat. The zoo is a great way to spend the day outdoors, learn, and see animals from around the world. 
+                    </p>
+                </div>
+
+                <!-- BOX -->
+                <a name="anc2"></a>
+                <div class="box">
+                    <h3>2. Coney Island</h3>
+                    <p>
+                        Coney Island is a neighborhood full of entertainment. Coney Island has a beach, boardwalk, aquarium, two amusement parks, restaurants, and bars. The two amusements parks are Luna Park and Deno’s Wonder Wheel. There are kids rides and thrilling roller coasters. The beach has plenty of room to lay in the sand or to enjoy a cooling swim. The aquarium has an aqua-theater and is a home for sea cliffs, sharks, rays, turtles, and other animals. 
+                    </p>
+                </div>
+
+                <!-- BOX -->
+                <a name="anc3"></a>
+                <div class="box">
+                    <h3>3. Circle Line</h3>
+                    <p>
+                        Circle Line is a relaxing cruise around Manhattan. It is a great way to see the Statue of Liberty, Manhattan skyline, and Brooklyn Bridge. You can enjoy a three-hour tour or a shorter hour and a half tour. 
+                    </p>
+                </div>
+
+                <!-- BOX -->
+                <a name="anc4"></a>
+                <div class="box">
+                    <h3>4. The New York Pass</h3>
+                    <p>
+                        When one isn’t enough, do The New York Pass. It is a one-time fee that allows discounted or free admission to many attractions in NYC and is well worth the money if use it. It allows free admission to these great attractions: Empire State Building Observation Deck, Statue of Liberty and Ellis Island Immigration Museum, Big Bus Tours - Hop-on Hop-off Tours, Top of the Rock, Museum of Sex, Grand Central Terminal Audio Tour, 9/11 Memorial & Museum, and New York Transit Museum.
+                    </p>
+                </div>
+
+                <!-- BOX -->
+                <a name="anc5"></a>
+                <div class="box">
+                    <h3>5. New York Helicopter Inc</h3>
+                    <p>
+                        See NYC from a bird’s eye view. They offer multiple levels of helicopter tours and charter services. They take you to see The Statue of Liberty, New York Harbor, Chrysler Building, Empire State Building, Central Park, and much more. 
+                    </p>
+                </div>
+            </div>
+            <!-- MAP -->
+            <div class="one-half float-left box last" id="map-section">
+                <div id="map"></div>
+                <script src="assets/javascript/activitiesMapScript.js"></script>
+                <script async defer
+                        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAJhb5Prb1SXjVIyYZo9nh6mRaVt6ueSGI&callback=initMap">
+                </script>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>
+            Created by Brianna Buttaccio © 2017
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="sources.html">References</a>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="notes.html">Content Explained</a>
+        </p>
+
+    </footer>
+</body>
+</html>
